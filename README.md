@@ -1,8 +1,12 @@
 # 🌦️ Weather Data Pipeline & Analytics System
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Database](https://img.shields.io/badge/SQLite-green)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 ## 🚀 Overview
 
-This project is a complete **End-to-End Data Engineering Pipeline** that extracts real-time weather data, processes it, stores it in a structured database, and generates meaningful insights through analytics and visualization.
+An end-to-end data engineering project that extracts real-time weather data, processes it using ETL pipelines, stores it in a structured database, and generates insights through analytics and visualization.
 
 It demonstrates core concepts of **ETL pipelines, data validation, database management, and data visualization**.
 
