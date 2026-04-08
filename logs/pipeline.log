@@ -1,0 +1,268 @@
+2026-04-06 12:38:46,879 - INFO - ETL pipeline started
+2026-04-06 12:38:46,880 - INFO - Starting data extraction
+2026-04-06 12:38:51,847 - INFO - Starting data transformation
+2026-04-06 12:38:51,847 - INFO - Starting data loading
+2026-04-06 12:38:51,894 - INFO - ETL pipeline completed successfully
+[INFO] 2026-04-06 12:49:30.503238 - ETL pipeline started
+[INFO] 2026-04-06 12:49:30.503679 - Starting data extraction
+[ERROR] 2026-04-06 12:49:30.542406 - API failed for Delhi: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Delhi&appid=bcf7b1debb2db4608e2473809f371819&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EA17804440>: Failed to resolve 'api.openweathermap.org' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] 2026-04-06 12:49:30.545194 - API failed for Mumbai: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Mumbai&appid=bcf7b1debb2db4608e2473809f371819&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EA17814410>: Failed to resolve 'api.openweathermap.org' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] 2026-04-06 12:49:30.546830 - API failed for Bangalore: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Bangalore&appid=bcf7b1debb2db4608e2473809f371819&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EA17814E10>: Failed to resolve 'api.openweathermap.org' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] 2026-04-06 12:49:30.548414 - API failed for Chennai: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Chennai&appid=bcf7b1debb2db4608e2473809f371819&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EA177F8FC0>: Failed to resolve 'api.openweathermap.org' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] 2026-04-06 12:49:30.550718 - API failed for Kolkata: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Kolkata&appid=bcf7b1debb2db4608e2473809f371819&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EA177F9810>: Failed to resolve 'api.openweathermap.org' ([Errno 11001] getaddrinfo failed)"))
+[INFO] 2026-04-06 12:49:30.551221 - Starting data transformation
+[ERROR] 2026-04-06 12:49:30.551604 - API failed for Delhi
+[ERROR] 2026-04-06 12:49:30.552019 - API failed for Mumbai
+[ERROR] 2026-04-06 12:49:30.552490 - API failed for Bangalore
+[ERROR] 2026-04-06 12:49:30.552948 - API failed for Chennai
+[ERROR] 2026-04-06 12:49:30.553392 - API failed for Kolkata
+[INFO] 2026-04-06 12:49:30.553880 - Starting data loading
+[INFO] 2026-04-06 12:49:30.555545 - ETL pipeline completed successfully
+[INFO] 2026-04-06 12:54:43.321445 - ETL pipeline started
+[INFO] 2026-04-06 12:54:43.321914 - Starting data extraction
+[INFO] 2026-04-06 12:54:44.455610 - Starting data transformation
+[INFO] 2026-04-06 12:54:44.457346 - Starting data loading
+[INFO] 2026-04-06 12:54:44.487792 - ETL pipeline completed successfully
+[INFO] 2026-04-06 13:10:14.636100 - ETL pipeline started
+[INFO] 2026-04-06 13:10:14.636569 - Starting data extraction
+[INFO] 2026-04-06 13:10:16.253207 - Starting data transformation
+[INFO] 2026-04-06 13:10:16.253825 - Starting data loading
+[INFO] 2026-04-06 13:10:16.281392 - ETL pipeline completed successfully
+[INFO] 2026-04-06 21:45:35.433445 - ETL pipeline started
+[INFO] 2026-04-06 21:45:35.434154 - Starting data extraction
+[INFO] 2026-04-06 21:45:40.618216 - Starting data transformation
+[INFO] 2026-04-06 21:45:40.618871 - Starting data loading
+[INFO] 2026-04-06 21:45:40.656425 - ETL pipeline completed successfully
+[INFO] 2026-04-06 21:46:10.881301 - ETL pipeline started
+[INFO] 2026-04-06 21:46:10.881685 - Starting data extraction
+[INFO] 2026-04-06 21:46:12.036715 - Starting data transformation
+[INFO] 2026-04-06 21:46:12.038630 - Starting data loading
+[INFO] 2026-04-06 21:46:12.058265 - ETL pipeline completed successfully
+[INFO] 2026-04-06 21:57:20.169695 - ETL pipeline started
+[INFO] 2026-04-06 21:57:20.170222 - Starting data extraction
+[INFO] 2026-04-06 21:57:21.403959 - Starting data transformation
+[ERROR] 2026-04-06 21:57:21.405601 - Pipeline failed: name 'calculate_average_temperature' is not defined
+[INFO] 2026-04-06 22:02:15.414669 - ETL pipeline started
+[ERROR] 2026-04-06 22:02:15.415218 - Pipeline failed: name 'raw_data' is not defined
+[INFO] 2026-04-06 22:06:45.047848 - ETL pipeline started
+[INFO] 2026-04-06 22:06:45.048390 - Starting data extraction
+[INFO] 2026-04-06 22:06:49.465505 - Starting data transformation
+[INFO] 2026-04-06 22:06:49.475351 - Average Temperature: 25.83°C
+[INFO] 2026-04-06 22:06:49.477078 - Starting data loading
+[ERROR] 2026-04-06 22:06:49.486019 - Pipeline failed: table weather_data has no column named city
+[INFO] 2026-04-06 22:10:53.383288 - ETL pipeline started
+[INFO] 2026-04-06 22:10:53.386184 - Starting data extraction
+[INFO] 2026-04-06 22:10:54.534103 - Starting data transformation
+[INFO] 2026-04-06 22:10:54.534971 - Average Temperature: 25.83°C
+[INFO] 2026-04-06 22:10:54.535558 - Starting data loading
+[ERROR] 2026-04-06 22:10:54.537075 - Pipeline failed: no such table: weather_data
+[INFO] 2026-04-06 22:11:13.806496 - ETL pipeline started
+[INFO] 2026-04-06 22:11:13.807046 - Starting data extraction
+[INFO] 2026-04-06 22:11:15.328791 - Starting data transformation
+[INFO] 2026-04-06 22:11:15.330743 - Average Temperature: 25.83°C
+[INFO] 2026-04-06 22:11:15.332285 - Starting data loading
+[ERROR] 2026-04-06 22:11:15.336525 - Pipeline failed: no such table: weather_data
+[INFO] 2026-04-06 22:26:46.844087 - ETL pipeline started
+[INFO] 2026-04-06 22:26:46.844859 - Starting data extraction
+[INFO] 2026-04-06 22:26:48.986408 - Starting data transformation
+[INFO] 2026-04-06 22:26:48.988205 - Average Temperature: 26.05°C
+[INFO] 2026-04-06 22:26:48.989778 - Starting data loading
+[ERROR] 2026-04-06 22:26:48.993802 - Pipeline failed: no such table: weather_data
+[INFO] 2026-04-06 22:26:49.030497 - ETL pipeline started
+[INFO] 2026-04-06 22:26:49.032110 - Starting data extraction
+[INFO] 2026-04-06 22:26:50.297765 - Starting data transformation
+[INFO] 2026-04-06 22:26:50.299477 - Average Temperature: 26.05°C
+[INFO] 2026-04-06 22:26:50.301010 - Starting data loading
+[INFO] 2026-04-06 22:26:50.336869 - ETL pipeline completed successfully
+[INFO] 2026-04-06 22:29:30.818338 - ETL pipeline started
+[INFO] 2026-04-06 22:29:30.819351 - Starting data extraction
+[INFO] 2026-04-06 22:29:32.488464 - Starting data transformation
+[INFO] 2026-04-06 22:29:32.490341 - Average Temperature: 26.05°C
+[INFO] 2026-04-06 22:29:32.491932 - Starting data loading
+[INFO] 2026-04-06 22:29:32.524045 - ETL pipeline completed successfully
+[INFO] 2026-04-06 22:51:30.819718 - ETL pipeline started
+[INFO] 2026-04-06 22:51:30.820546 - Starting data extraction
+[INFO] 2026-04-06 22:51:33.114332 - Starting data transformation
+[INFO] 2026-04-06 22:51:33.116231 - Average Temperature: 25.99°C
+[ERROR] 2026-04-06 22:51:33.117754 - Pipeline failed: name 'load' is not defined
+[INFO] 2026-04-06 22:52:31.055766 - ETL pipeline started
+[INFO] 2026-04-06 22:52:31.057052 - Starting data extraction
+[INFO] 2026-04-06 22:52:32.219004 - Starting data transformation
+[INFO] 2026-04-06 22:52:32.220133 - Average Temperature: 25.99°C
+[ERROR] 2026-04-06 22:52:32.221233 - Pipeline failed: name 'load' is not defined
+[INFO] 2026-04-07 10:59:58.194473 - ETL pipeline started
+[INFO] 2026-04-07 10:59:58.195052 - Starting data extraction
+[INFO] 2026-04-07 10:59:59.404120 - Starting data transformation
+[INFO] 2026-04-07 10:59:59.424255 - Average Temperature: 30.48°C
+[ERROR] 2026-04-07 10:59:59.427196 - Pipeline failed: name 'load' is not defined
+[INFO] 2026-04-07 11:06:54.712482 - ETL pipeline started
+[INFO] 2026-04-07 11:06:54.713039 - Starting data extraction
+[INFO] 2026-04-07 11:06:55.760971 - Starting data transformation
+[INFO] 2026-04-07 11:06:55.762378 - Average Temperature: 30.48°C
+[ERROR] 2026-04-07 11:06:55.763711 - Pipeline failed: name 'load' is not defined
+[INFO] 2026-04-07 11:10:20.627805 - ETL pipeline started
+[INFO] 2026-04-07 11:10:20.628382 - Starting data extraction
+[INFO] 2026-04-07 11:10:22.964090 - Starting data transformation
+[INFO] 2026-04-07 11:10:22.965396 - Average Temperature: 30.48°C
+[ERROR] 2026-04-07 11:10:22.967893 - Pipeline failed: no such table: cities
+[INFO] 2026-04-07 11:13:15.729814 - ETL pipeline started
+[INFO] 2026-04-07 11:13:15.730550 - Starting data extraction
+[INFO] 2026-04-07 11:13:18.336693 - Starting data transformation
+[INFO] 2026-04-07 11:13:18.337405 - Average Temperature: 30.48°C
+[ERROR] 2026-04-07 11:13:18.339897 - Pipeline failed: no such table: cities
+[INFO] 2026-04-07 11:25:41.529722 - ETL pipeline started
+[INFO] 2026-04-07 11:25:41.531093 - Starting data extraction
+[INFO] 2026-04-07 11:25:42.703132 - Starting data transformation
+[INFO] 2026-04-07 11:25:42.703866 - Average Temperature: 30.75°C
+[ERROR] 2026-04-07 11:25:42.706072 - Pipeline failed: no such table: cities
+[INFO] 2026-04-07 11:29:24.163859 - ETL pipeline started
+[INFO] 2026-04-07 11:29:24.174344 - Starting data extraction
+[INFO] 2026-04-07 11:29:25.462033 - Starting data transformation
+[INFO] 2026-04-07 11:29:25.463791 - Average Temperature: 30.75°C
+[ERROR] 2026-04-07 11:29:25.466838 - Pipeline failed: no such table: cities
+[INFO] 2026-04-07 11:32:49.053391 - ETL pipeline started
+[INFO] 2026-04-07 11:32:49.054047 - Starting data extraction
+[INFO] 2026-04-07 11:32:50.203444 - Starting data transformation
+[INFO] 2026-04-07 11:32:50.204684 - Average Temperature: 30.76°C
+[ERROR] 2026-04-07 11:32:50.206841 - Pipeline failed: no such table: cities
+[INFO] 2026-04-07 11:36:14.590265 - ETL pipeline started
+[INFO] 2026-04-07 11:36:14.590878 - Starting data extraction
+[INFO] 2026-04-07 11:36:15.962518 - Starting data transformation
+[INFO] 2026-04-07 11:36:15.964278 - Average Temperature: 30.76°C
+[ERROR] 2026-04-07 11:36:15.992221 - Pipeline failed: 'sqlite3.Cursor' object has no attribute 'fetchcone'
+[INFO] 2026-04-07 11:40:24.549014 - ETL pipeline started
+[INFO] 2026-04-07 11:40:24.549496 - Starting data extraction
+[INFO] 2026-04-07 11:40:25.721548 - Starting data transformation
+[INFO] 2026-04-07 11:40:25.723300 - Average Temperature: 31.01°C
+[ERROR] 2026-04-07 11:40:25.747851 - Pipeline failed: table weather_data has no column named city_id
+[INFO] 2026-04-07 11:43:31.711176 - ETL pipeline started
+[INFO] 2026-04-07 11:43:31.711593 - Starting data extraction
+[INFO] 2026-04-07 11:43:32.909254 - Starting data transformation
+[INFO] 2026-04-07 11:43:32.911081 - Average Temperature: 31.21°C
+[ERROR] 2026-04-07 11:43:32.919133 - Pipeline failed: table weather_data has no column named city_id
+[INFO] 2026-04-07 11:47:32.539490 - ETL pipeline started
+[INFO] 2026-04-07 11:47:32.540066 - Starting data extraction
+[INFO] 2026-04-07 11:47:33.773561 - Starting data transformation
+[INFO] 2026-04-07 11:47:33.774534 - Average Temperature: 31.24°C
+[INFO] 2026-04-07 11:47:33.807197 - ETL pipeline completed successfully
+[INFO] 2026-04-07 11:51:43.375880 - ETL pipeline started
+[INFO] 2026-04-07 11:51:43.376392 - Starting data extraction
+[INFO] 2026-04-07 11:51:44.755304 - Starting data transformation
+[INFO] 2026-04-07 11:51:44.757058 - Average Temperature: 31.24°C
+[INFO] 2026-04-07 11:51:44.794499 - ETL pipeline completed successfully
+[INFO] 2026-04-07 11:55:23.204745 - ETL pipeline started
+[INFO] 2026-04-07 11:55:23.205257 - Starting data extraction
+[INFO] 2026-04-07 11:55:24.383843 - Starting data transformation
+[INFO] 2026-04-07 11:55:24.385652 - Average Temperature: 31.24°C
+[INFO] 2026-04-07 11:55:24.397258 - ETL pipeline completed successfully
+[INFO] 2026-04-07 11:58:54.718436 - ETL pipeline started
+[INFO] 2026-04-07 11:58:54.719725 - Starting data extraction
+[INFO] 2026-04-07 11:58:56.057645 - Starting data transformation
+[INFO] 2026-04-07 11:58:56.059439 - Average Temperature: 31.29°C
+[INFO] 2026-04-07 11:58:56.086917 - ETL pipeline completed successfully
+[INFO] 2026-04-07 11:59:38.114268 - ETL pipeline started
+[INFO] 2026-04-07 11:59:38.114861 - Starting data extraction
+[INFO] 2026-04-07 11:59:39.400677 - Starting data transformation
+[INFO] 2026-04-07 11:59:39.402423 - Average Temperature: 31.29°C
+[INFO] 2026-04-07 11:59:39.421684 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:02:02.629547 - ETL pipeline started
+[INFO] 2026-04-07 12:02:02.630084 - Starting data extraction
+[INFO] 2026-04-07 12:02:03.868049 - Starting data transformation
+[INFO] 2026-04-07 12:02:03.868928 - Average Temperature: 31.29°C
+[INFO] 2026-04-07 12:02:03.901492 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:37:55.352443 - ETL pipeline started
+[INFO] 2026-04-07 12:37:55.354384 - Starting data extraction
+[INFO] 2026-04-07 12:37:57.102194 - Starting data transformation
+[INFO] 2026-04-07 12:37:57.104000 - Average Temperature: 31.05°C
+[INFO] 2026-04-07 12:37:57.132251 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:42:52.447414 - ETL pipeline started
+[INFO] 2026-04-07 12:42:52.448421 - Starting data extraction
+[INFO] 2026-04-07 12:42:53.967747 - Starting data transformation
+[INFO] 2026-04-07 12:42:53.969705 - Average Temperature: 31.45°C
+[INFO] 2026-04-07 12:42:54.007252 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:48:47.447847 - ETL pipeline started
+[INFO] 2026-04-07 12:48:47.449039 - Starting data extraction
+[INFO] 2026-04-07 12:48:49.091014 - Starting data transformation
+[INFO] 2026-04-07 12:48:49.093410 - Average Temperature: 31.16°C
+[INFO] 2026-04-07 12:48:49.135877 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:50:19.907503 - ETL pipeline started
+[INFO] 2026-04-07 12:50:19.908123 - Starting data extraction
+[INFO] 2026-04-07 12:50:21.100557 - Starting data transformation
+[INFO] 2026-04-07 12:50:21.102638 - Average Temperature: 31.16°C
+[INFO] 2026-04-07 12:50:21.140355 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:54:59.076530 - ETL pipeline started
+[INFO] 2026-04-07 12:54:59.077757 - Starting data extraction
+[INFO] 2026-04-07 12:55:00.409219 - Starting data transformation
+[INFO] 2026-04-07 12:55:00.411179 - Average Temperature: 31.16°C
+[INFO] 2026-04-07 12:55:00.435105 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:58:01.053441 - ETL pipeline started
+[INFO] 2026-04-07 12:58:01.054639 - Starting data extraction
+[INFO] 2026-04-07 12:58:02.192237 - Starting data transformation
+[INFO] 2026-04-07 12:58:02.194171 - Average Temperature: 31.17°C
+[INFO] 2026-04-07 12:58:02.213616 - ETL pipeline completed successfully
+[INFO] 2026-04-07 12:59:38.850590 - ETL pipeline started
+[INFO] 2026-04-07 12:59:38.851333 - Starting data extraction
+[INFO] 2026-04-07 12:59:40.392984 - Starting data transformation
+[INFO] 2026-04-07 12:59:40.395128 - Average Temperature: 31.21°C
+[INFO] 2026-04-07 12:59:40.431007 - ETL pipeline completed successfully
+[INFO] 2026-04-07 13:02:53.294642 - ETL pipeline started
+[INFO] 2026-04-07 13:02:53.295754 - Starting data extraction
+[INFO] 2026-04-07 13:02:54.527338 - Starting data transformation
+[INFO] 2026-04-07 13:02:54.529412 - Average Temperature: 31.21°C
+[INFO] 2026-04-07 13:02:54.554197 - ETL pipeline completed successfully
+[INFO] 2026-04-07 13:07:17.534258 - ETL pipeline started
+[INFO] 2026-04-07 13:07:17.535311 - Starting data extraction
+[INFO] 2026-04-07 13:07:20.613856 - Starting data transformation
+[INFO] 2026-04-07 13:07:20.616057 - Average Temperature: 31.21°C
+[INFO] 2026-04-07 13:07:20.651547 - ETL pipeline completed successfully
+[INFO] 2026-04-07 13:16:05.982747 - ETL pipeline started
+[INFO] 2026-04-07 13:16:05.983551 - Starting data extraction
+[INFO] 2026-04-07 13:16:07.174721 - Starting data transformation
+[INFO] 2026-04-07 13:16:07.176831 - Average Temperature: 31.25°C
+[INFO] 2026-04-07 13:16:07.213003 - ETL pipeline completed successfully
+2026-04-07 22:15:32,701 - INFO - generated new fontManager
+2026-04-07 22:15:33,212 - INFO - ETL pipeline started
+2026-04-07 22:15:33,213 - INFO - Starting data extraction
+2026-04-07 22:15:34,524 - INFO - Starting data transformation
+2026-04-07 22:15:34,525 - INFO - Average Temperature: 25.05°C
+2026-04-07 22:15:34,556 - INFO - ETL pipeline completed successfully
+2026-04-07 22:31:43,812 - INFO - ETL pipeline started
+2026-04-07 22:31:43,813 - INFO - Starting data extraction
+2026-04-07 22:31:45,383 - INFO - Starting data transformation
+2026-04-07 22:31:45,384 - INFO - Average Temperature: 25.14°C
+2026-04-07 22:31:45,418 - INFO - ETL pipeline completed successfully
+2026-04-07 22:36:50,712 - INFO - ETL pipeline started
+2026-04-07 22:36:50,712 - INFO - Starting data extraction
+2026-04-07 22:36:52,141 - INFO - Starting data transformation
+2026-04-07 22:36:52,141 - INFO - Average Temperature: 24.92°C
+2026-04-07 22:36:52,175 - INFO - ETL pipeline completed successfully
+2026-04-07 23:00:09,890 - INFO - ETL pipeline started
+2026-04-07 23:00:09,891 - INFO - Starting data extraction
+2026-04-07 23:00:11,148 - INFO - Starting data transformation
+2026-04-07 23:00:11,148 - INFO - Average Temperature: 24.57°C
+2026-04-07 23:00:11,166 - INFO - ETL pipeline completed successfully
+2026-04-08 10:00:43,651 - INFO - ETL pipeline started
+2026-04-08 10:00:43,653 - INFO - Starting data extraction
+2026-04-08 10:00:45,112 - INFO - Starting data transformation
+2026-04-08 10:00:45,112 - INFO - Average Temperature: 27.62°C
+2026-04-08 10:00:45,138 - INFO - ETL pipeline completed successfully
+2026-04-08 10:02:05,481 - INFO - ETL pipeline started
+2026-04-08 10:02:05,482 - INFO - Starting data extraction
+2026-04-08 10:02:06,713 - INFO - Starting data transformation
+2026-04-08 10:02:06,713 - INFO - Average Temperature: 27.71°C
+2026-04-08 10:02:06,721 - INFO - ETL pipeline completed successfully
+2026-04-08 10:03:40,938 - INFO - ETL pipeline started
+2026-04-08 10:03:40,938 - INFO - Starting data extraction
+2026-04-08 10:03:42,223 - INFO - Starting data transformation
+2026-04-08 10:03:42,223 - INFO - Average Temperature: 27.71°C
+2026-04-08 10:03:42,249 - INFO - ETL pipeline completed successfully
+2026-04-08 10:11:36,681 - INFO - ETL pipeline started
+2026-04-08 10:11:36,682 - INFO - Starting data extraction
+2026-04-08 10:11:38,051 - INFO - Starting data transformation
+2026-04-08 10:11:38,051 - INFO - Average Temperature: 27.89°C
+2026-04-08 10:11:38,077 - INFO - ETL pipeline completed successfully
+2026-04-08 10:44:48,049 - INFO - ETL pipeline started
+2026-04-08 10:44:48,049 - INFO - Starting data extraction
+2026-04-08 10:44:49,106 - INFO - Starting data transformation
+2026-04-08 10:44:49,106 - INFO - Average Temperature: 28.74°C
+2026-04-08 10:44:49,115 - INFO - ETL pipeline completed successfully
